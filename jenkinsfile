@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('hello') {
+    stage('start') {
       steps {
         sh 'wel.py'
       }
